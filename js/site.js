@@ -33,7 +33,7 @@
   /* Hilfen */
   function gradText(t, nachkomma) {
     var z = Math.abs(t).toFixed(nachkomma ? 1 : 0).replace(".", ",");
-    return (t < 0 ? "−" : t > 0 ? "+" : "") + z + " °C";
+    return (t < 0 ? "−" : t > 0 ? "+" : "") + z + " °C";
   }
   function mische(a, b, f) {
     var pa = [parseInt(a.substr(1, 2), 16), parseInt(a.substr(3, 2), 16), parseInt(a.substr(5, 2), 16)];

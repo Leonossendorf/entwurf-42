@@ -9,7 +9,7 @@
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="img/standort-abend.webp" as="image" media="(min-width: 760px)">
-<link rel="stylesheet" href="css/site.css?v=2">
+<link rel="stylesheet" href="css/site.css?v=3">
 </head>
 <body>
 <a class="springen" href="#inhalt">Zum Inhalt springen</a>
@@ -90,8 +90,8 @@
   <form class="planer innen" id="planer" novalidate>
     <div class="planer__buehne">
       <div class="anzeige" aria-hidden="true">
-        <div class="anzeige__feld"><span class="anzeige__name" id="zone1-name">Ladung</span><output class="anzeige__wert" id="anz1">+4,0 °C</output></div>
-        <div class="anzeige__feld anzeige__feld--zwei" id="anz2-feld" hidden><span class="anzeige__name">Zone hinten</span><output class="anzeige__wert" id="anz2">−18,0 °C</output></div>
+        <div class="anzeige__feld"><span class="anzeige__name" id="zone1-name">Ladung</span><output class="anzeige__wert" id="anz1">+4,0&nbsp;°C</output></div>
+        <div class="anzeige__feld anzeige__feld--zwei" id="anz2-feld" hidden><span class="anzeige__name">Zone hinten</span><output class="anzeige__wert" id="anz2">−18,0&nbsp;°C</output></div>
         <div class="anzeige__feld anzeige__feld--klein"><span class="anzeige__name">Paletten</span><output class="anzeige__wert" id="anzp">18</output></div>
       </div>
       <svg class="auflieger" id="auflieger" viewBox="0 0 860 220" role="img" aria-labelledby="auflieger-text">
@@ -106,7 +106,7 @@
   <div class="typenschild" aria-labelledby="schild-titel">
         <h3 id="schild-titel" class="typenschild__titel">Ausstattung jedes Kühlaufliegers</h3>
         <dl class="typenschild__liste">
-          <div><dt>Temperatur</dt><dd>−25 bis +25 °C</dd></div>
+          <div><dt>Temperatur</dt><dd>−25 bis +25&nbsp;°C</dd></div>
           <div><dt>Stellfläche</dt><dd>33 Europaletten</dd></div>
           <div><dt>Doppelstock</dt><dd>bis 66 Europaletten</dd></div>
           <div><dt>Innenhöhe</dt><dd>2,65 m</dd></div>
@@ -130,7 +130,7 @@
       </fieldset>
 
       <div class="feld">
-        <label for="temp1" class="feld__name">Temperatur <output for="temp1" id="temp1-wert">+4 °C</output></label>
+        <label for="temp1" class="feld__name">Temperatur <output for="temp1" id="temp1-wert">+4&nbsp;°C</output></label>
         <input type="range" id="temp1" name="temperatur" min="-25" max="25" step="1" value="4" class="regler regler--temp">
       </div>
 
@@ -140,7 +140,7 @@
         <span>Zwei Temperaturen in einem Auflieger (mit Trennwand)</span>
       </label>
       <div class="feld" id="temp2-feld" hidden>
-        <label for="temp2" class="feld__name">Zone hinten <output for="temp2" id="temp2-wert">−18 °C</output></label>
+        <label for="temp2" class="feld__name">Zone hinten <output for="temp2" id="temp2-wert">−18&nbsp;°C</output></label>
         <input type="range" id="temp2" name="temperatur_hinten" min="-25" max="25" step="1" value="-18" class="regler regler--temp">
       </div>
 
@@ -375,6 +375,6 @@
   <a href="#jobs" class="leiste__gelb">Bewerben</a>
 </nav>
 
-<script src="js/site.js?v=2" defer></script>
+<script src="js/site.js?v=3" defer></script>
 </body>
 </html>
