@@ -328,8 +328,11 @@ input[type=file]{font:inherit;font-size:.95rem;max-width:100%}
   .anzeige__wert{font-size:1.5rem}
   .kachel{min-height:280px}
   .standort__raster{grid-template-columns:1fr}
-  .flotte{min-height:620px}
-  .flotte__bild img{object-position:22% 30%}
+  .flotte{display:block;min-height:0}
+  .flotte::before{display:none}
+  .flotte__bild{position:relative;inset:auto;height:300px}
+  .flotte__bild img{object-position:35% 40%}
+  .flotte__text{padding-top:30px}
   .leiste{display:grid;grid-template-columns:1fr 1fr 1.2fr;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--nacht);border-top:1px solid rgba(255,255,255,.12);padding-bottom:env(safe-area-inset-bottom)}
   .leiste a{display:flex;align-items:center;justify-content:center;gap:6px;min-height:58px;color:var(--weiss);text-decoration:none;font-weight:700;font-size:.98rem}
   .leiste svg{width:18px;height:18px;fill:none}
